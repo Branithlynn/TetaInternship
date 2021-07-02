@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Second {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        /*
+        /* Task1
         System.out.print("How many kg is your body weight: ");
         double kg = sc.nextDouble();
         //switch ne stava zashtoto po uslovie iska promenlivata da e tip Double
@@ -24,6 +24,7 @@ public class Second {
 
 
         /*
+        Task 2
         System.out.print("Write a number between 1 and 7.");
         int day = sc.nextInt();
 
