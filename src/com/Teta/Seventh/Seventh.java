@@ -15,7 +15,21 @@ public class Seventh {
         EvenOdd(a);
     }
     public static void EvenOdd(int[] a){
-        int count = 0;
+        //komentara e predishno reshenie koeto podobrih
+        for (int i = 0;i<a.length;i++ ){
+        if(a[i]%2==0){
+            System.out.print(a[i]);
+
+        }
+      }
+        for (int i = 0;i<a.length;i++ ){
+            if(a[i]%2!=0){
+                System.out.print(a[i]);
+
+            }
+        }
+
+       /* int count = 0;
         int[] evenodd = new int[a.length];
         for (int i = 0;i<evenodd.length;i++ ){
             if(a[i]%2==0){
@@ -33,5 +47,10 @@ public class Seventh {
         for (int i = 0;i<evenodd.length;i++ ){
             System.out.print(evenodd[i]);
         }
+        */
+
+
+
+
     }
 }
