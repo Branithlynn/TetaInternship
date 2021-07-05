@@ -21,7 +21,7 @@ public class Fourth {
             Scanner sc = new Scanner(System.in);
             System.out.println("Write the numbers to fill the array");
             String text = sc.nextLine();
-            String[] res = text.split("[,]", 0);
+            String[] res = text.split(",");
             for(int a= 0;a<res.length;a++){
                 b[a]= Integer.parseInt(res[a]);
             }
