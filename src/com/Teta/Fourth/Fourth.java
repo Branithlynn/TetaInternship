@@ -4,18 +4,29 @@ import java.util.Scanner;
 
 public class Fourth {
     public static void main(String[] args) {
-        Ex1 exercise1 = new Ex1();
+
         Scanner sc = new Scanner(System.in);
+        /* zadacha 1 05.07.2021
+        Ex1 exercise1 = new Ex1();
         System.out.println("Write the number of the array length");
         int l = sc.nextInt();
         int[] arr = new int[l];
         exercise1.FillArray(arr);
         exercise1.SumTheArray(arr);
+*/
 
 
 
     }
 
+
+
+
+
+
+
+
+/*
     static class Ex1{
         public void FillArray(int[] b){
             Scanner sc = new Scanner(System.in);
@@ -36,5 +47,5 @@ public class Fourth {
             System.out.println(m);
         }
     }
-
+*/
 }
